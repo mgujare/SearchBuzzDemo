@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements ITrendingViewList
         setContentView(R.layout.activity_main);
         mTrendingLayout = (LinearLayout) findViewById(R.id.trending_layout);
         TrendingView trendingView = new TrendingView();
-        TrendingViewSettings.Builder builder = new TrendingViewSettings.Builder("bossValid", Constants.TrendingCategory.DEFAULT);
+        TrendingViewSettings.Builder builder = new TrendingViewSettings.Builder("EnterYourAppId", Constants.TrendingCategory.DEFAULT);
 //      Other configuration options
 //      builder.setNumTerms(5);
 
