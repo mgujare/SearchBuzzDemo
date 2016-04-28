@@ -31,7 +31,6 @@ build/
 gradlew*
 
 #libraries
-libs/
 
 yala.xml
 native-libs.jar
